@@ -92,4 +92,12 @@ dependencies {
     // Okhttp
     implementation(libs.okhttp3)
     implementation(libs.okhttp3.logging.interceptor)
+
+    //data store
+    implementation (libs.androidx.datastore.preferences)
+
+    //corotines
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.kotlinx.coroutines.core)
+    testImplementation (libs.kotlinx.coroutines.test)
 }
